@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "mimetext": "^3.0.24"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0"
   }
 }
