@@ -1,7 +1,7 @@
 const esbuild = require('esbuild');
 
 esbuild.build({
-  entryPoints: ['./functions/api/submit.js'],  // Path to your Worker entry file
+  entryPoints: ['./src/index.js'],  // Path to your Worker entry file
   bundle: true,
   minify: true,
   target: 'es2020',
